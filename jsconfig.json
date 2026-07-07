@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2020",
+    "checkJs": true,
+    "noEmit": true,
+    "types": ["@harborclient/sdk/snippets"]
+  },
+  "include": ["*.js"]
+}

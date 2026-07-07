@@ -1,0 +1,20 @@
+{
+  "id": "com.harborclient.snippets.auth",
+  "name": "Auth",
+  "author": "HarborClient",
+  "version": "1.0.0",
+  "summary": "Snippet for authentication.",
+  "description": "README.md",
+  "categories": [
+    "testing"
+  ],
+  "screenshots": [
+   "https://raw.githubusercontent.com/harborclient/snippet-auth/main/screenshot.png"
+  ],
+  "engines": {
+    "harborclient": ">=2.0.0"
+  },
+  "snippets": [
+  	{ "name": "ID Token", "where": "post-request", "file": "id_token.js" }
+  ]
+}

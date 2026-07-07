@@ -1,0 +1,20 @@
+{
+  "name": "@harborclient/snippet-auth",
+  "description": "Snippet for authentication.",
+  "type": "module",
+  "scripts": {
+    "release": "bash scripts/publish.sh",
+    "sign": "node --experimental-strip-types scripts/sign.ts"
+  },
+  "keywords": [
+    "harborclient",
+    "snippets",
+    "auth"
+  ],
+  "author": "HarborClient",
+  "license": "MIT",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "@harborclient/sdk": "^1.0.41"
+  }
+}
