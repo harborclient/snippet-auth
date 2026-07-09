@@ -2,7 +2,7 @@
   "id": "com.harborclient.snippets.auth",
   "name": "Auth",
   "author": "HarborClient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "Snippet for authentication.",
   "description": "README.md",
   "categories": [
@@ -15,6 +15,6 @@
     "harborclient": ">=2.0.0"
   },
   "snippets": [
-  	{ "name": "ID Token", "where": "post-request", "file": "id_token.js" }
+  	{ "name": "ID Token", "phase": "run", "runs-in": "post-request", "file": "id_token.js" }
   ]
 }
